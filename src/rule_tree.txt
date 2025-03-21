@@ -1,0 +1,94 @@
+[1.1] IF individual is Asymptomatic THEN
+    [1.1.1] IF individual is Average risk THEN
+        [1.1.1.1] IF age ≥ 25 but < 40 THEN
+            - Perform Clinical encounter every 1–3 years and Encourage Breast awareness
+        [1.1.1.2] IF age ≥ 40 THEN
+            - Perform Annual clinical encounter, Perform Annual screening mammogram with tomosynthesis (category 1), and Encourage Breast awareness
+            [1.1.1.2.1] IF Dense breast tissue on mammography (heterogeneously and/or extremely dense breasts) THEN
+                Follow rule [1.1.2]
+            ENDIF
+        ENDIF
+    [1.1.2] IF individual is Increased risk THEN
+        [1.1.2.1] IF Pedigree suggestive of/or known genetic predisposition THEN
+            - Refer to a genetic counselor or other health professional with expertise and experience in cancer genetics and Follow [[NCCN Guidelines for Genetic/Familial High-Risk Assessment: Breast, Ovarian, Pancreatic, and Prostate]]
+        [1.1.2.2] IF Residual lifetime risk ≥20% as defined by models that include a comprehensive family history THEN
+            Follow [[BSCR-2]]
+        [1.1.2.3] IF Radiation therapy (RT) with exposure to breast tissue between ages 10 and 30 y THEN
+            Follow [[BSCR-3]]
+        [1.1.2.4] IF 5-year risk of invasive breast cancer ≥1.7% in individuals ≥35 y (per Gail Model) THEN
+            Follow [[BSCR-4]]
+        [1.1.2.5] IF Atypical ductal hyperplasia [ADH] and ≥20% residual lifetime risk THEN
+            Follow [[BSCR-4]]
+        [1.1.2.6] IF Lobular neoplasia (lobular carcinoma in situ [LCIS]/atypical lobular hyperplasia [ALH]) and ≥20% residual lifetime risk THEN
+            Follow [[BSCR-4]]
+        [1.1.2.7] IF Dense breast tissue on mammography (heterogeneously and/or extremely dense breasts) in patients who do not meet any other increased risk category THEN
+            Follow [[BSCR-4]] and [[BSCR-A]]
+        ENDIF
+    ENDIF
+[1.2] IF individual is Symptomatic THEN
+    Follow [[BSCR-5]]
+ENDIF
+
+# Document: BSCR-2
+
+[2.1] IF individual has a residual lifetime risk ≥20% as defined by models that include a comprehensive family history THEN
+    - Perform clinical encounter every 6-12 months, Start when individual is identified as being at increased risk, Consider referral to a genetic counselor or other health professional with expertise and experience in cancer genetics, if not already done, and Consider referral to a breast specialist as appropriate
+    - Perform annual screening mammogram with tomosynthesis. To begin no later than age 40 y, or 10 y prior to when the youngest family member was diagnosed with breast cancer, not prior to age 30 (whichever comes first).
+    - Perform annual breast MRI with and without contrast. To begin no later than age 40 y, or 10 years prior to when the youngest family member was diagnosed with breast cancer, not prior to age 25 (whichever comes first).
+    - Consider contrast-enhanced mammography (CEM) or molecular breast imaging (MBI) for those who qualify for but cannot undergo MRI.
+    - Whole breast ultrasound may be done if CEM or MBI is not available/accessible
+    - Consider risk reduction strategies ([[NCCN Guidelines for Breast Cancer Risk Reduction]])
+    - Encourage breast awareness
+ENDIF
+
+# Document: BSCR-3
+
+[3.1] IF individual had RT with exposure to breast tissue between ages 10 and 30 THEN
+    [3.1.1] IF current age < 25 THEN
+        - Perform annual clinical encounter, Begin 8 years after RT, and Encourage breast awareness
+    [3.1.2] IF current age ≥ 25 THEN
+        - Perform clinical encounter every 6-12 months
+        - Begin 8 years after RT
+        - Perform annual screening mammogram with tomosynthesis
+        - Begin 8 years after RT but not prior to age 25
+        - Perform annual breast MRI with and without contrast
+        - Consider CEM or MBI for those who qualify for but cannot undergo MRI. Whole breast ultrasound may be done if CEM or MBI is not available/accessible. Begin 8 years after RT but not prior to age 25
+        - Consider risk reduction strategies ([[NCCN Guidelines for Breast Cancer Risk Reduction]])
+        - Encourage breast awareness
+    ENDIF
+ENDIF
+
+# Document: BSCR-4
+
+# Increased Risk
+[4.1] IF individual has increased risk (5-year risk of invasive breast cancer ≥1.7% in individuals ≥35 y [per Gail Model]) THEN
+    - Perform clinical encounter every 6–12 months. To begin when identified as being at increased risk by Gail Model.
+    - Perform annual screening mammogram with tomosynthesis. To begin when identified as being at increased risk by Gail Model.
+    - Consider risk reduction strategies ([[NCCN Guidelines for Breast Cancer Risk Reduction]])
+    - Encourage breast awareness
+
+# ADH or Lobular neoplasia (LCIS/ALH) and ≥20% residual lifetime risk
+[4.2] IF individual has ADH or Lobular neoplasia (LCIS/ALH) and ≥20% residual lifetime risk THEN
+    - Perform clinical encounter every 6–12 months. To begin at diagnosis of ADH or lobular neoplasia (LCIS/ALH).
+    - Perform annual screening mammogram with tomosynthesis. To begin at diagnosis of ADH or lobular neoplasia (LCIS/ALH) but not prior to age 30 y.
+    - Consider annual breast MRI with and without contrast. Consider CEM or MBI for those who qualify for but cannot undergo MRI. Whole breast ultrasound may be done if CEM or MBI is not available. To begin at diagnosis of ADH or lobular neoplasia (LCIS/ALH) but not prior to age 25 y.
+    - Consider risk reduction strategies ([[NCCN Guidelines for Breast Cancer Risk Reduction]])
+    - Encourage breast awareness
+
+# Dense breast tissue on mammography in patients who do not meet any other increased risk category
+[4.3] IF patient has dense breast tissue on mammography AND does not meet any other increased risk category THEN
+    [4.3.1] IF breast tissue is heterogeneously dense THEN
+        - Perform clinical encounter every 6–12 months. To begin when identified on mammography.
+        - Perform annual screening mammogram with tomosynthesis. To begin no later than age 40 but not prior to age 30.
+        - Consider supplemental screening ([[BSCR-A]])
+        - Consider risk reduction strategies ([[NCCN Guidelines for Breast Cancer Risk Reduction]])
+        - Encourage breast awareness
+    [4.3.2] ELSE IF breast tissue is extremely dense THEN
+        - Perform clinical encounter every 6–12 months. To begin when identified on mammography.
+        - Perform annual screening mammogram with tomosynthesis. To begin no later than age 40 but not prior to age 30.
+        - Perform breast MRI with and without contrast. To begin at age 50 but can consider starting at age 40.
+        - Consider CEM or MBI for those who qualify for but cannot undergo MRI. Whole breast ultrasound may be done if CEM or MBI is not available.
+        - Consider risk reduction strategies ([[NCCN Guidelines for Breast Cancer Risk Reduction]])
+        - Encourage breast awareness
+    ENDIF
+ENDIF
