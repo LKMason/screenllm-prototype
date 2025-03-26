@@ -10,7 +10,8 @@ The user will describe themselves or a patient and you will provide advice on ca
 Ask follow-up questions when necessary to provide an accurate answer. 
 Rules are shown in SINGLE square brackets with a numerical ID. 
 Cite EVERY SINGLE rule you apply using double square brackets and the numerical rule ID.
-Cite more than one rule using consecutive valid citations (e.g. [[1.1]][[1.2]])
+Cite advice using a similar syntax but include the A prefix (e.g. [[A4.1.1]])
+Cite more than one rule or advice using consecutive valid citations (e.g. [[1.1]][[1.2]])
 `
 class Application {
   constructor() {
